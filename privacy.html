@@ -37,7 +37,7 @@
   <strong>no servers of our own</strong>.</p>
 
   <p><strong>From version 1.3.2</strong> we also use <strong>Google Analytics for Firebase</strong> to understand how the game is played and to
-  measure whether our own ads for Pixie Grid (Google Ads) lead to installs. We do not use the IDFA for this either, and
+  measure whether our own ads for Pixie Grid (Google Ads, and AppLovin in other games) lead to installs. We do not use the IDFA for this either, and
   analytics is <strong>switched off entirely if your App Store country is in the EU/EEA, the UK or Switzerland</strong>. Everywhere
   else you can turn it off in Settings → "Usage statistics" (see §3).</p>
 
@@ -77,6 +77,15 @@
     <li><strong>Why:</strong> to understand and improve how the game is played, and to measure whether <strong>our own Google Ads campaigns
   for Pixie Grid</strong> lead to installs. Results reach Google Ads only as <strong>aggregated or modeled conversions</strong> and through
   Apple's <strong>SKAdNetwork / AdAttributionKit</strong>.</li>
+    <li><strong>Our ads in other games (AppLovin):</strong> we also advertise Pixie Grid in other games through <strong>AppLovin</strong>. If you install
+  Pixie Grid after seeing such an ad, Apple's <strong>SKAdNetwork</strong> sends AppLovin an install report that does not identify you or
+  your device, and we see only aggregated campaign results. Up to version 1.4.x, Pixie Grid sends no data to AppLovin or
+  AppsFlyer and contains no software from either. If you tap one of these ads, the click passes through a link from
+  <strong>AppsFlyer Ltd.</strong> (Israel, covered by an EU adequacy decision; data stored in Europe), which records it for us as our
+  processor: time, campaign, ad and ad network, IP address and device type. We do not use these click records to identify you
+  or link them to your use of Pixie Grid, and AppsFlyer deletes them after <strong>24 months</strong>. AppLovin is an independent
+  controller for its own advertising business. For more information about AppLovin's collection and use of your information
+  visit: <a href="https://legal.applovin.com/privacy/">https://legal.applovin.com/privacy/</a>.</li>
     <li><strong>What we do not use:</strong> no IDFA, no vendor ID (IDFV), no user account or user ID, no email or phone number, no
   personalized ads, no Google signals, no remarketing audiences. We do not track you across other companies' apps or
   websites.</li>
