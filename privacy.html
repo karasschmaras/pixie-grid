@@ -26,7 +26,7 @@
 <body>
 <div class="wrap"><div class="card">
   <h1>Pixie Grid — Privacy Policy</h1>
-  <p class="upd">Last updated: 21 November 2026</p>
+  <p class="upd">Last updated: 22 November 2026</p>
 
   <h2>The short version</h2>
   <div class="lead"><p><strong>Pixie Grid is a free, ad-supported game.</strong> To show ads we use <strong>Google AdMob</strong> (the Google Mobile Ads SDK). Every ad
@@ -40,6 +40,11 @@
   measure whether our own ads for Pixie Grid (Google Ads) lead to installs. We do not use the IDFA for this either, and
   analytics is <strong>switched off entirely if your App Store country is in the EU/EEA, the UK or Switzerland</strong>. Everywhere
   else you can turn it off in Settings → "Usage statistics" (see §3).</p>
+
+  <p><strong>From version 1.5.0</strong> we also use <strong>AppsFlyer</strong> to measure which of our own ads in other games bring new players. AppsFlyer runs
+  without the advertising identifier (IDFA), does not match your device across other companies' apps, and, like analytics, never
+  starts if your App Store country is in the EU/EEA, the UK or Switzerland. The same Settings → "Usage statistics" switch turns it
+  off (see §3a).</p>
 
   <p><strong>From version 1.4.0</strong> leaderboards use Apple's <strong>Game Center</strong> (see §5).</p></div>
 
@@ -78,9 +83,6 @@
     <li><strong>Why:</strong> to understand and improve how the game is played, and to measure whether <strong>our own Google Ads campaigns
   for Pixie Grid</strong> lead to installs. Results reach Google Ads only as <strong>aggregated or modeled conversions</strong> and through
   Apple's <strong>SKAdNetwork / AdAttributionKit</strong>.</li>
-    <li><strong>Advertising in other games:</strong> we have an advertiser account with <strong>AppLovin</strong> but currently run no campaigns there, and Pixie
-  Grid sends no data to AppLovin or AppsFlyer. For more information about AppLovin's collection and use of your information
-  visit: <a href="https://legal.applovin.com/privacy/">https://legal.applovin.com/privacy/</a>.</li>
     <li><strong>What we do not use:</strong> no IDFA, no vendor ID (IDFV), no user account or user ID, no email or phone number, no
   personalized ads, no Google signals, no remarketing audiences. We do not track you across other companies' apps or
   websites.</li>
@@ -93,6 +95,21 @@
     <li><strong>Retention:</strong> event-level analytics data is kept by Google for <strong>2 months</strong>, then deleted. Only aggregated reports
   that do not identify you are kept longer.</li>
     <li>More on how Google handles this data: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>.</li>
+  </ul>
+
+  <h2>3a. Measuring our own ads in other games (applies from version 1.5.0)</h2>
+  <p><strong>This section applies only to Pixie Grid version 1.5.0 and later.</strong></p>
+  <ul>
+    <li><strong>Who:</strong> Karas Games is the controller. <strong>AppsFlyer Ltd.</strong> (Herzliya, Israel) processes the data for us as our processor under its data-processing agreement. Its EU representative is AppsFlyer Germany GmbH, Berlin. By default AppsFlyer stores the data in Europe.</li>
+    <li><strong>What:</strong> a random AppsFlyer ID created for this installation; device model, iOS and app version; your IP address, from which an approximate country or region is derived; install and session times; three game events (first picture revealed, level 3 and level 10 completed for the first time, in-app purchases with product and price tier, never payment details); which of our campaigns, ad networks and ads led to the install; and results from Apple's attribution frameworks (SKAdNetwork, AdAttributionKit, AdServices). AppsFlyer's software can also read the App Store's signed record of your download of Pixie Grid (Apple's "AppTransaction") and send it to AppsFlyer. This record contains an ID that Apple keeps the same for your Apple Account and this app, also after you reinstall the app or use it on another device, and it comes with a device verification ID from iOS that can be the same value as the app's vendor ID (IDFV).</li>
+    <li><strong>Our ads in other apps:</strong> if you tap one of our ads in another app, the ad network reports this to AppsFlyer, which records it for us: time, campaign, ad and ad network, IP address, device type and language. We do not use these records to identify you or to link them to your use of Pixie Grid.</li>
+    <li><strong>Why:</strong> to see which of our own ad campaigns bring new players and how those players get on in their first days, so that we spend our advertising budget sensibly, and to check that the installs reported to us are genuine.</li>
+    <li><strong>Ad networks:</strong> the network that showed you our ad receives an anonymous install report from Apple and only aggregated campaign results from AppsFlyer, never your AppsFlyer ID, the AppTransaction record or other data about you as an individual. <strong>Ad network we use for this:</strong> <strong>AppLovin</strong> (AppLovin Ads), only while one of our campaigns runs there. AppLovin is an independent controller for its own advertising business. For more information about AppLovin's collection and use of your information visit: <a href="https://legal.applovin.com/privacy/">https://legal.applovin.com/privacy/</a>.</li>
+    <li><strong>What we do not do:</strong> no IDFA, no user account of our own, no email or phone number, no fingerprinting or probabilistic matching of your device, no matching with data from other companies' apps, no personalized ads, no audiences, no sale of your data.</li>
+    <li><strong>Legal basis:</strong> Art. 6(1)(f) GDPR (our legitimate interest in measuring our own advertising and protecting that measurement against fraud). You can object at any time (Art. 21 GDPR); see Opt-out.</li>
+    <li><strong>Where it is off:</strong> AppsFlyer is <strong>never started</strong> if your App Store country (storefront) is in the EU/EEA, the UK or Switzerland, or if it cannot be determined. In those countries the app also does not report installs to Apple's attribution frameworks.</li>
+    <li><strong>Opt-out:</strong> Settings → <strong>"Usage statistics"</strong> off stops AppsFlyer immediately, so nothing more is sent to AppsFlyer. Deleting the app does not erase everything: Apple's download ID described above stays the same, and AppsFlyer's software can keep a reinstall counter in your device's keychain, which iOS keeps when an app is deleted. AppsFlyer can therefore recognize a reinstall. We have switched off AppsFlyer's option to use on-device storage for this.</li>
+    <li><strong>Retention:</strong> AppsFlyer keeps installation-level data for <strong>24 months</strong>, then deletes it. Only aggregated reports that do not identify you are kept longer.</li>
   </ul>
 
   <h2>4. Remove Ads, Credits &amp; in-app purchases</h2>
@@ -131,9 +148,11 @@
   (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>) and Google Ads Settings (<a href="https://adssettings.google.com">https://adssettings.google.com</a>).</li>
     <li><strong>Analytics (§3, from version 1.3.2):</strong> to object, switch off Settings → <strong>"Usage statistics"</strong>. To have analytics
   data deleted, email <a href="mailto:karasleon@web.de">karasleon@web.de</a> with the app-instance ID shown under Settings → "Usage statistics" and we
-  will delete it with Google's user-deletion tools, or simply delete the app.</li>
-    <li><strong>California:</strong> <strong>we do not sell or share your personal information</strong> for cross-context behavioral advertising. Ads
-  are non-personalized and identifiers are not used to track you.</li>
+  will delete it with Google's user-deletion tools. Deleting the app resets the ID; data already collected is deleted after 2 months.</li>
+    <li><strong>Ad measurement (§3a, from version 1.5.0):</strong> to object, switch off Settings → "Usage statistics". To have AppsFlyer data deleted, email us the measurement ID shown there and we will delete it through AppsFlyer's deletion tool. Deleting the app alone does not delete data already collected; it is deleted at the end of the retention period.</li>
+    <li><strong>California:</strong> <strong>we do not sell or share your personal information</strong> for cross-context behavioral advertising. Ads in the app
+  are non-personalized, identifiers are not used to track you, and ad networks that show our own ads receive only aggregated
+  results (§3a).</li>
   </ul>
   <p>Questions or requests: <a href="mailto:karasleon@web.de">karasleon@web.de</a>.</p>
 
@@ -141,11 +160,14 @@
   <p>Google is a global provider and may process ad data (AdMob) and, from version 1.3.2, analytics data (Google Analytics
   for Firebase) in countries including the United States. Such transfers are governed by Google's safeguards (EU–US Data
   Privacy Framework certification and Standard Contractual Clauses) under the Google Privacy Policy
-  (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>). Your game state is not transmitted to us; if iCloud sync is on (§5), Apple stores it in your private iCloud database.</p>
+  (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>). Your game state is not transmitted to us; if iCloud sync is on (§5), Apple stores it in your private iCloud database. From version 1.5.0, AppsFlyer stores measurement data in Europe by default. AppsFlyer Ltd. is based in Israel, for which the
+European Commission has issued an adequacy decision. AppsFlyer's hosting providers may process data in the EU and the USA under
+the EU–US Data Privacy Framework and Standard Contractual Clauses. Ad networks that show our ads in other games receive no personal
+data from us, only aggregated results.</p>
 
   <h2>9. Data retention</h2>
   <p>We retain <strong>no</strong> personal data on our own servers (we have none). Ad-related data is retained by Google per its own
-  policies. From version 1.3.2, analytics event data is kept by Google for <strong>2 months</strong>, then deleted. Your game state remains on your device, and in your private iCloud if sync is on, until you delete it (see §5).</p>
+  policies. From version 1.3.2, analytics event data is kept by Google for <strong>2 months</strong>, then deleted. Your game state remains on your device, and in your private iCloud if sync is on, until you delete it (see §5). From version 1.5.0, AppsFlyer keeps installation-level measurement data for <strong>24 months</strong>, then deletes it.</p>
 
   <h2>10. Changes to this policy</h2>
   <p>If we change how the app handles data (for example, a new SDK or a change to what is collected), we will update this
